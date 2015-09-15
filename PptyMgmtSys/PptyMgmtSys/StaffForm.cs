@@ -30,9 +30,12 @@ namespace PptyMgmtSys
         {
             try
             {
-                conn = "Server=localhost;Database=propertymanagement;Uid=root;Pwd=pass;";
+                //conn = "Server=localhost;Database=propertymanagement;Uid=root;Pwd=pass;";
+                conn = "Server=sql6.freesqldatabase.com;Database=sql689558;Uid=sql689558;Pwd=vA7*lR3%;";
                 connect = new MySqlConnection(conn);
                 connect.Open();
+
+
             }
             catch (MySqlException e)
             {
@@ -44,8 +47,8 @@ namespace PptyMgmtSys
         {
             db_connection();
             MySqlCommand cmd = new MySqlCommand();
-            cmd.CommandText = "Select * from staff where username=@user and password=@pass";
-            cmd.Parameters.AddWithValue("@user", user);
+            cmd.CommandText = "Select * from staff where StaffEmail=@email and password=@pass";
+            cmd.Parameters.AddWithValue("@email", user);
             cmd.Parameters.AddWithValue("@pass", pass);
             cmd.Connection = connect;
             MySqlDataReader login = cmd.ExecuteReader();

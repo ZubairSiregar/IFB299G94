@@ -32,5 +32,16 @@ namespace PptyMgmtSys.Properties {
                 return ((string)(this["propertymanagementConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("password=vA7*lR3%;server=sql6.freesqldatabase.com;user id=sql689558;database=sql6" +
+            "89558")]
+        public string sql689558ConnectionString {
+            get {
+                return ((string)(this["sql689558ConnectionString"]));
+            }
+        }
     }
 }

@@ -78,6 +78,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>propertymanagementDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="sql689558DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sql689558DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="StaffForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +146,17 @@
     </None>
     <None Include="propertymanagementDataSet1.xss">
       <DependentUpon>propertymanagementDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="sql689558DataSet.xsc">
+      <DependentUpon>sql689558DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sql689558DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sql689558DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sql689558DataSet.xss">
+      <DependentUpon>sql689558DataSet.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

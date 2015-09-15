@@ -19,8 +19,8 @@ namespace PptyMgmtSys
 
         private void newTenantToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            panel1.Visible = true;
-            //new createTenant().Show();
+            
+            new createTenant().Show();
         }
     }
 }

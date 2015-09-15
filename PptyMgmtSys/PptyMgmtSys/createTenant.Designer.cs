@@ -45,9 +45,6 @@
             this.create = new System.Windows.Forms.Button();
             this.back = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.propertymanagementDataSet = new PptyMgmtSys.propertymanagementDataSet();
-            this.tenantBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tenantTableAdapter = new PptyMgmtSys.propertymanagementDataSetTableAdapters.tenantTableAdapter();
             this.tenantIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenantNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenantPhoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -56,11 +53,20 @@
             this.tenantContactDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenantAccountNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenantBSBDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenantBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.sql689558DataSet = new PptyMgmtSys.sql689558DataSet();
+            this.tenantBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.propertymanagementDataSet = new PptyMgmtSys.propertymanagementDataSet();
+            this.tenantTableAdapter = new PptyMgmtSys.propertymanagementDataSetTableAdapters.tenantTableAdapter();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
+            this.tenantTableAdapter1 = new PptyMgmtSys.sql689558DataSetTableAdapters.tenantTableAdapter();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sql689558DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -203,26 +209,12 @@
             this.tenantContactDataGridViewTextBoxColumn,
             this.tenantAccountNoDataGridViewTextBoxColumn,
             this.tenantBSBDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.tenantBindingSource;
+            this.dataGridView1.DataSource = this.tenantBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(364, 40);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(769, 335);
             this.dataGridView1.TabIndex = 16;
-            // 
-            // propertymanagementDataSet
-            // 
-            this.propertymanagementDataSet.DataSetName = "propertymanagementDataSet";
-            this.propertymanagementDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tenantBindingSource
-            // 
-            this.tenantBindingSource.DataMember = "tenant";
-            this.tenantBindingSource.DataSource = this.propertymanagementDataSet;
-            // 
-            // tenantTableAdapter
-            // 
-            this.tenantTableAdapter.ClearBeforeFill = true;
             // 
             // tenantIDDataGridViewTextBoxColumn
             // 
@@ -230,7 +222,6 @@
             this.tenantIDDataGridViewTextBoxColumn.HeaderText = "TenantID";
             this.tenantIDDataGridViewTextBoxColumn.Name = "tenantIDDataGridViewTextBoxColumn";
             this.tenantIDDataGridViewTextBoxColumn.ReadOnly = true;
-            this.tenantIDDataGridViewTextBoxColumn.Width = 50;
             // 
             // tenantNameDataGridViewTextBoxColumn
             // 
@@ -281,6 +272,30 @@
             this.tenantBSBDataGridViewTextBoxColumn.Name = "tenantBSBDataGridViewTextBoxColumn";
             this.tenantBSBDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // tenantBindingSource1
+            // 
+            this.tenantBindingSource1.DataMember = "tenant";
+            this.tenantBindingSource1.DataSource = this.sql689558DataSet;
+            // 
+            // sql689558DataSet
+            // 
+            this.sql689558DataSet.DataSetName = "sql689558DataSet";
+            this.sql689558DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tenantBindingSource
+            // 
+            this.tenantBindingSource.DataMember = "tenant";
+            this.tenantBindingSource.DataSource = this.propertymanagementDataSet;
+            // 
+            // propertymanagementDataSet
+            // 
+            this.propertymanagementDataSet.DataSetName = "propertymanagementDataSet";
+            this.propertymanagementDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tenantTableAdapter
+            // 
+            this.tenantTableAdapter.ClearBeforeFill = true;
+            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(158, 115);
@@ -298,11 +313,26 @@
             this.label8.TabIndex = 18;
             this.label8.Text = "label8";
             // 
+            // tenantTableAdapter1
+            // 
+            this.tenantTableAdapter1.ClearBeforeFill = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(375, 382);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Delete";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // createTenant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1166, 475);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.dataGridView1);
@@ -325,8 +355,10 @@
             this.Text = "createTenant";
             this.Load += new System.EventHandler(this.createTenant_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sql689558DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -352,6 +384,12 @@
         private propertymanagementDataSet propertymanagementDataSet;
         private System.Windows.Forms.BindingSource tenantBindingSource;
         private propertymanagementDataSetTableAdapters.tenantTableAdapter tenantTableAdapter;
+        private System.Windows.Forms.TextBox name;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label8;
+        private sql689558DataSet sql689558DataSet;
+        private System.Windows.Forms.BindingSource tenantBindingSource1;
+        private sql689558DataSetTableAdapters.tenantTableAdapter tenantTableAdapter1;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenantIDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenantNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenantPhoneDataGridViewTextBoxColumn;
@@ -360,8 +398,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tenantContactDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenantAccountNoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenantBSBDataGridViewTextBoxColumn;
-        private System.Windows.Forms.TextBox name;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button1;
     }
 }
