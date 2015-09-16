@@ -38,6 +38,7 @@ $ git checkout <branchname>
 Delete a file from repository
 $ git rm file1.txt
 $ git commit -m "remove file1.txt"
+$ git push origin master
 
 ==============
 Useful Links:
