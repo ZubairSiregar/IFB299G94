@@ -72,7 +72,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(83, 52);
+            this.label1.Location = new System.Drawing.Point(120, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 0;
@@ -80,7 +80,7 @@
             // 
             // name
             // 
-            this.name.Location = new System.Drawing.Point(184, 49);
+            this.name.Location = new System.Drawing.Point(209, 68);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(165, 20);
             this.name.TabIndex = 1;
@@ -89,7 +89,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(83, 82);
+            this.label2.Location = new System.Drawing.Point(120, 105);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 13);
             this.label2.TabIndex = 2;
@@ -98,7 +98,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(83, 115);
+            this.label3.Location = new System.Drawing.Point(120, 148);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 13);
             this.label3.TabIndex = 3;
@@ -106,7 +106,7 @@
             // 
             // phone
             // 
-            this.phone.Location = new System.Drawing.Point(184, 82);
+            this.phone.Location = new System.Drawing.Point(209, 105);
             this.phone.Name = "phone";
             this.phone.Size = new System.Drawing.Size(165, 20);
             this.phone.TabIndex = 4;
@@ -114,7 +114,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(83, 149);
+            this.label4.Location = new System.Drawing.Point(488, 68);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 13);
             this.label4.TabIndex = 6;
@@ -123,7 +123,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(83, 182);
+            this.label5.Location = new System.Drawing.Point(488, 105);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 7;
@@ -132,7 +132,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(83, 212);
+            this.label6.Location = new System.Drawing.Point(488, 144);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(95, 13);
             this.label6.TabIndex = 8;
@@ -141,7 +141,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(83, 242);
+            this.label7.Location = new System.Drawing.Point(488, 184);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(28, 13);
             this.label7.TabIndex = 9;
@@ -149,35 +149,35 @@
             // 
             // document
             // 
-            this.document.Location = new System.Drawing.Point(184, 146);
+            this.document.Location = new System.Drawing.Point(609, 65);
             this.document.Name = "document";
             this.document.Size = new System.Drawing.Size(165, 20);
             this.document.TabIndex = 10;
             // 
             // contact
             // 
-            this.contact.Location = new System.Drawing.Point(184, 182);
+            this.contact.Location = new System.Drawing.Point(609, 105);
             this.contact.Name = "contact";
             this.contact.Size = new System.Drawing.Size(165, 20);
             this.contact.TabIndex = 11;
             // 
             // bankAccount
             // 
-            this.bankAccount.Location = new System.Drawing.Point(184, 209);
+            this.bankAccount.Location = new System.Drawing.Point(609, 141);
             this.bankAccount.Name = "bankAccount";
             this.bankAccount.Size = new System.Drawing.Size(165, 20);
             this.bankAccount.TabIndex = 12;
             // 
             // bsb
             // 
-            this.bsb.Location = new System.Drawing.Point(184, 239);
+            this.bsb.Location = new System.Drawing.Point(609, 184);
             this.bsb.Name = "bsb";
             this.bsb.Size = new System.Drawing.Size(165, 20);
             this.bsb.TabIndex = 13;
             // 
             // create
             // 
-            this.create.Location = new System.Drawing.Point(135, 304);
+            this.create.Location = new System.Drawing.Point(153, 256);
             this.create.Name = "create";
             this.create.Size = new System.Drawing.Size(75, 23);
             this.create.TabIndex = 14;
@@ -187,7 +187,7 @@
             // 
             // back
             // 
-            this.back.Location = new System.Drawing.Point(250, 304);
+            this.back.Location = new System.Drawing.Point(256, 256);
             this.back.Name = "back";
             this.back.Size = new System.Drawing.Size(75, 23);
             this.back.TabIndex = 15;
@@ -210,10 +210,10 @@
             this.tenantAccountNoDataGridViewTextBoxColumn,
             this.tenantBSBDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.tenantBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(364, 40);
+            this.dataGridView1.Location = new System.Drawing.Point(56, 285);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(769, 335);
+            this.dataGridView1.Size = new System.Drawing.Size(846, 178);
             this.dataGridView1.TabIndex = 16;
             // 
             // tenantIDDataGridViewTextBoxColumn
@@ -298,7 +298,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(158, 115);
+            this.dateTimePicker1.Location = new System.Drawing.Point(209, 148);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 17;
@@ -307,7 +307,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(52, 372);
+            this.label8.Location = new System.Drawing.Point(69, 236);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 18;
@@ -319,7 +319,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(375, 382);
+            this.button1.Location = new System.Drawing.Point(794, 256);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 19;
@@ -331,7 +331,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1166, 475);
+            this.ClientSize = new System.Drawing.Size(950, 475);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.dateTimePicker1);
