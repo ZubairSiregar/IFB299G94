@@ -35,6 +35,10 @@ $ git branch
 Change branch if neccesary 
 $ git checkout <branchname>
 
+Delete a file from repository
+$ git rm file1.txt
+$ git commit -m "remove file1.txt"
+
 ==============
 Useful Links:
 ==============
