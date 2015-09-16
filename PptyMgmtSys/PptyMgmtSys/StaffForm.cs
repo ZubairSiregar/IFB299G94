@@ -85,5 +85,10 @@ namespace PptyMgmtSys
                 MessageBox.Show("Incorrect Login Credentials");
             }
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
