@@ -10,3 +10,30 @@ c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\ob
 c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffForm.resources
 c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffMenu.resources
 c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.createTenant.resources
+<<<<<<< HEAD
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\bin\Debug\PptyMgmtSys.exe.config
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.exe
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.pdb
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\bin\Debug\PptyMgmtSys.exe
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\bin\Debug\PptyMgmtSys.pdb
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.csprojResolveAssemblyReference.cache
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.createTenant.resources
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.Form1.resources
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.Properties.Resources.resources
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffForm.resources
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffMenu.resources
+C:\Users\n8605912\Documents\GitHub\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.csproj.GenerateResource.Cache
+=======
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\bin\Debug\PptyMgmtSys.exe.config
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.exe
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.pdb
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\bin\Debug\PptyMgmtSys.exe
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\bin\Debug\PptyMgmtSys.pdb
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.csprojResolveAssemblyReference.cache
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.createTenant.resources
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.Form1.resources
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.Properties.Resources.resources
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffForm.resources
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffMenu.resources
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.csproj.GenerateResource.Cache
+>>>>>>> 952e53b2f455a8106de3aafd58aa28deca6dab32
