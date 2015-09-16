@@ -85,11 +85,11 @@ namespace PptyMgmtSys
             }
         }
 
-        private bool DeleteTenant(string cell)
+        private bool DeleteTenant(int cell)
         {
             db_connection();
             MySqlCommand cmd = new MySqlCommand();
-            cmd.CommandText = "DELETE FROM `sql689558`.`tenant` WHERE tenantID= " + cell + ");";
+            cmd.CommandText = "DELETE FROM `sql689558`.`tenant` WHERE tenantID= " + cell + "');";
 
             cmd.Connection = connect;
             MySqlDataReader login = cmd.ExecuteReader();
@@ -137,19 +137,11 @@ namespace PptyMgmtSys
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string cell;
-            foreach (DataGridViewRow row in dataGridView1.SelectedRows)
-            {
-                if (!row.IsNewRow)
-                {
-                    cell = row.Cells[0].Value.ToString();
-                    DeleteTenant(cell);
-                }
-                   
-                    
-                
-                //dataGridView1.Rows.Remove(row);
-            }
+            int Row = dataGridView1.CurrentRow.Index;
+            int cell = dataGridView1.SelectedRows[0].Index;
+
+            DeleteTenant(cell);
+            this.tenantTableAdapter1.Fill(this.sql689558DataSet.tenant);
 
             
             
