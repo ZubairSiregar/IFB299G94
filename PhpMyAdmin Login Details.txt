@@ -1,0 +1,5 @@
+http://www.phpmyadmin.co/
+
+Server: 	sql6.freesqldatabase.com
+Username: 	sql689558
+Password:	vA7*1R3%
