@@ -89,7 +89,7 @@ namespace PptyMgmtSys
         {
             db_connection();
             MySqlCommand cmd = new MySqlCommand();
-            cmd.CommandText = "DELETE FROM `sql689558`.`tenant` WHERE tenantID= " + cell + "');";
+            cmd.CommandText = "DELETE FROM `sql689558`.`tenant` WHERE tenantID= '" + cell + "');";
 
             cmd.Connection = connect;
             MySqlDataReader login = cmd.ExecuteReader();
