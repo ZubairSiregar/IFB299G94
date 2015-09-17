@@ -1,0 +1,46 @@
+The 5 Artefacts in this directory, show the work that I Laird O'Brien have contributed 
+to this release. This summary will include the names, a brief overview, and the reason
+why each Artefact was chosen.
+
+Artefact Names:
+~~~~~~~~~~~~~~~
+1: Story Cards Powerpoint
+2: Team Awareness & Communication
+3: Github Demonstration
+4: How to use Github
+5: NUnit Tests Examples
+
+
+Artefacts Overview & Why they were Chosen:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1: This Artefact is quite self-explanatory as the group brainstormed stories for the 
+project and I took these, modified, added, deleted and arranged them in the correct format
+for the assesment. I then created the acceptance criteria for all of the stories. This 
+Artefact was chosen simply because the quality of my work may be assessed easily in this
+instance.
+
+2: I noticed that on the day before the release was due, that only one other person from 
+the group had created a folder in the github directory to put their personal portfolio in.
+I realised that they were probably having troubles understanding how to use it, as it took
+me a couple of hours to work it out. I took it upon myself to reach out, communicate, and 
+try to help solve their problems so that they may complete it on time. I believe that 
+looking out for your team, and trying to help them when possible is very valuable in any
+group project, and that is why this Artefact was included.
+
+3: I decided to hold a meeting to help the other members of my team having trouble getting
+their heads around github, because of the lack of understanding I discovered while 
+observing and communicating in Artefact 2.
+
+4: Because there were many commands for Github that may easily be forgotten after my 
+demonstration to the team in Artefact 3, I decided to make an easy to read 'cheat sheet'
+for future reference, for when any of my team members need to use Github. This provides 
+my team with an easier method of dealing with the git repository and is why I chose this
+as one of the examples of my contribution.
+
+5: Considering I have been waiting for a new computer to arrive (Arrived Mon 14th Sep) I
+have not contributed much to the C# application we are devloping to interact with the 
+MySQL server. Due to this I decided to make some example test cases for the group, shown
+in Artefact 5. Note: Ongoing from this point, I will be more hands on with the C#
+application development, and this will be evident in future sprints/documentation.
+
+

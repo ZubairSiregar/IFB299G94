@@ -1,0 +1,47 @@
+How to use Github by Laird:
+
+1: Install Github Application
+https://desktop.github.com/
+
+2: Create Github account and have Zubair add you to the Github group
+
+3: Open Github Application & enter your name for commits and your github email address 
+
+4: Click + button (top left) Click "Clone" Then browse for "IFB299G94". Click clone repository.
+
+5: Open the Git Shell
+
+6: Change directory to "C:\Users\n8605912\Documents\GitHub\IFB299G94"
+$ cd C:\Users\n8605912\Documents\GitHub\IFB299G94
+
+7: To update your local repository files to the latest versions
+$ git pull
+
+8: To save and upload (commit) changes to files that you cloned to directory C:\Users\n8605912\Documents\GitHub\IFB299G94
+$ git add .			
+$ git commit -m 'First commit'  (Can change 'First commit' to desired comment)
+$ git push origin master 	
+
+
+==================================================
+Ignore these commands unless you are Laird/Zubair
+==================================================
+Add Release1 branch to local
+$ git checkout -b Release1
+
+Make sure in correct branch (* will show which branch you are in)
+$ git branch
+
+Change branch if neccesary 
+$ git checkout <branchname>
+
+Delete a file from repository
+$ git rm file1.txt
+$ git commit -m "remove file1.txt"
+$ git push origin master
+
+==============
+Useful Links:
+==============
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
