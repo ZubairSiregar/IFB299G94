@@ -156,6 +156,11 @@ namespace PptyMgmtSys
             bankAccount.Text = dataGridView1.Rows[i].Cells[6].Value.ToString();
             bsb.Text = dataGridView1.Rows[i].Cells[7].Value.ToString();
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
         
     }
 }
