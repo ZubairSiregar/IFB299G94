@@ -1,0 +1,12 @@
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\bin\Debug\PptyMgmtSys.exe.config
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\bin\Debug\PptyMgmtSys.exe
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\bin\Debug\PptyMgmtSys.pdb
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.csprojResolveAssemblyReference.cache
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.Form1.resources
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.Properties.Resources.resources
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.csproj.GenerateResource.Cache
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.exe
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.pdb
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffForm.resources
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffMenu.resources
+c:\users\zubair\documents\visual studio 2012\Projects\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.createTenant.resources
