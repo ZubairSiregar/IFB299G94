@@ -62,11 +62,21 @@
             this.label8 = new System.Windows.Forms.Label();
             this.tenantTableAdapter1 = new PptyMgmtSys.sql689558DataSetTableAdapters.tenantTableAdapter();
             this.button1 = new System.Windows.Forms.Button();
+            this.propertymanagementDataSet2 = new PptyMgmtSys.propertymanagementDataSet2();
+            this.tenantBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.tenantTableAdapter2 = new PptyMgmtSys.propertymanagementDataSet2TableAdapters.tenantTableAdapter();
+            this.propertyManagementDBDataSet1 = new PptyMgmtSys.propertyManagementDBDataSet1();
+            this.tenantBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.tenantTableAdapter3 = new PptyMgmtSys.propertyManagementDBDataSet1TableAdapters.tenantTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sql689558DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.propertyManagementDBDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -210,7 +220,7 @@
             this.tenantContactDataGridViewTextBoxColumn,
             this.tenantAccountNoDataGridViewTextBoxColumn,
             this.tenantBSBDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.tenantBindingSource1;
+            this.dataGridView1.DataSource = this.tenantBindingSource3;
             this.dataGridView1.Location = new System.Drawing.Point(40, 207);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -330,6 +340,34 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // propertymanagementDataSet2
+            // 
+            this.propertymanagementDataSet2.DataSetName = "propertymanagementDataSet2";
+            this.propertymanagementDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tenantBindingSource2
+            // 
+            this.tenantBindingSource2.DataMember = "tenant";
+            this.tenantBindingSource2.DataSource = this.propertymanagementDataSet2;
+            // 
+            // tenantTableAdapter2
+            // 
+            this.tenantTableAdapter2.ClearBeforeFill = true;
+            // 
+            // propertyManagementDBDataSet1
+            // 
+            this.propertyManagementDBDataSet1.DataSetName = "propertyManagementDBDataSet1";
+            this.propertyManagementDBDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tenantBindingSource3
+            // 
+            this.tenantBindingSource3.DataMember = "tenant";
+            this.tenantBindingSource3.DataSource = this.propertyManagementDBDataSet1;
+            // 
+            // tenantTableAdapter3
+            // 
+            this.tenantTableAdapter3.ClearBeforeFill = true;
+            // 
             // createTenant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -362,6 +400,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.sql689558DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.propertyManagementDBDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -402,5 +444,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tenantAccountNoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenantBSBDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button button1;
+        private propertymanagementDataSet2 propertymanagementDataSet2;
+        private System.Windows.Forms.BindingSource tenantBindingSource2;
+        private propertymanagementDataSet2TableAdapters.tenantTableAdapter tenantTableAdapter2;
+        private propertyManagementDBDataSet1 propertyManagementDBDataSet1;
+        private System.Windows.Forms.BindingSource tenantBindingSource3;
+        private propertyManagementDBDataSet1TableAdapters.tenantTableAdapter tenantTableAdapter3;
     }
 }

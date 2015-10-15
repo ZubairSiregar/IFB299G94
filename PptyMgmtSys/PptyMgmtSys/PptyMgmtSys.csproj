@@ -78,6 +78,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>propertymanagementDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="propertymanagementDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>propertymanagementDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="propertyManagementDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>propertyManagementDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="propertyManagementDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>propertyManagementDBDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="sql689558DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -146,6 +161,39 @@
     </None>
     <None Include="propertymanagementDataSet1.xss">
       <DependentUpon>propertymanagementDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="propertymanagementDataSet2.xsc">
+      <DependentUpon>propertymanagementDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="propertymanagementDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>propertymanagementDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="propertymanagementDataSet2.xss">
+      <DependentUpon>propertymanagementDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="propertyManagementDBDataSet.xsc">
+      <DependentUpon>propertyManagementDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="propertyManagementDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>propertyManagementDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="propertyManagementDBDataSet.xss">
+      <DependentUpon>propertyManagementDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="propertyManagementDBDataSet1.xsc">
+      <DependentUpon>propertyManagementDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="propertyManagementDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>propertyManagementDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="propertyManagementDBDataSet1.xss">
+      <DependentUpon>propertyManagementDBDataSet1.xsd</DependentUpon>
     </None>
     <None Include="sql689558DataSet.xsc">
       <DependentUpon>sql689558DataSet.xsd</DependentUpon>

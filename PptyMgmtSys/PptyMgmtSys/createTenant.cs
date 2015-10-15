@@ -26,8 +26,12 @@ namespace PptyMgmtSys
         //Displays list of existing tenants
         private void createTenant_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'propertyManagementDBDataSet1.tenant' table. You can move, or remove it, as needed.
+            this.tenantTableAdapter3.Fill(this.propertyManagementDBDataSet1.tenant);
+            // TODO: This line of code loads data into the 'propertymanagementDataSet2.tenant' table. You can move, or remove it, as needed.
+            //this.tenantTableAdapter2.Fill(this.propertymanagementDataSet2.tenant);
             // TODO: This line of code loads data into the 'sql689558DataSet.tenant' table. You can move, or remove it, as needed.
-            this.tenantTableAdapter1.Fill(this.sql689558DataSet.tenant);
+            //this.tenantTableAdapter1.Fill(this.sql689558DataSet.tenant);
             dateTimePicker1.Value = new DateTime(1990, 01, 01);
             
             
@@ -38,8 +42,8 @@ namespace PptyMgmtSys
         {
             try
             {
-                
-                conn = "Server=sql6.freesqldatabase.com;Database=sql689558;Uid=sql689558;Pwd=vA7*lR3%;";
+
+                conn = "Server=team94.cczx3nnzcur7.us-west-2.rds.amazonaws.com;Database=propertyManagementDB;Uid=team94user;Pwd=592road$;";
                 connect = new MySqlConnection(conn);
                 connect.Open();
              
@@ -68,8 +72,8 @@ namespace PptyMgmtSys
         {
             db_connection();
             MySqlCommand cmd = new MySqlCommand();
-            
-            cmd.CommandText = "INSERT INTO `sql689558`.`tenant` (`TenantID`, `TenantName`, `TenantPhone`, `TenantDOB`, `TenantDocument`, `TenantContact`, `TenantAccountNo`, `TenantBSB`) VALUES (NULL, '" + fullName + "','" + phoneNumber + "','" + dateOfBirth + "','" + doc + "','" + contacts + "','" + account + "','" + bankBsb + "');";
+
+            cmd.CommandText = "INSERT INTO `propertyManagementDB`.`tenant` (`TenantID`, `TenantName`, `TenantPhone`, `TenantDOB`, `TenantDocument`, `TenantContact`, `TenantAccountNo`, `TenantBSB`) VALUES (NULL, '" + fullName + "','" + phoneNumber + "','" + dateOfBirth + "','" + doc + "','" + contacts + "','" + account + "','" + bankBsb + "');";
             cmd.Connection = connect;
             MySqlDataReader login = cmd.ExecuteReader();
             if (login.Read())
@@ -129,7 +133,7 @@ namespace PptyMgmtSys
             else
             {
                 create_tenant(fullName, phoneNumber, dateOfBirth, doc, contacts, account, bankBsb);
-                this.tenantTableAdapter1.Fill(this.sql689558DataSet.tenant);
+                this.tenantTableAdapter3.Fill(this.propertyManagementDBDataSet1.tenant);
             }
         }
 

@@ -30,8 +30,8 @@ namespace PptyMgmtSys
         {
             try
             {
-                
-                conn = "Server=sql6.freesqldatabase.com;Database=sql689558;Uid=sql689558;Pwd=vA7*lR3%;";
+
+                conn = "Server=team94.cczx3nnzcur7.us-west-2.rds.amazonaws.com;Database=propertyManagementDB;Uid=team94user;Pwd=592road$;";
                 connect = new MySqlConnection(conn);
                 connect.Open();
 

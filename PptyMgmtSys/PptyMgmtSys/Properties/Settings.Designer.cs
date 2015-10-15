@@ -43,5 +43,16 @@ namespace PptyMgmtSys.Properties {
                 return ((string)(this["sql689558ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=team94.cczx3nnzcur7.us-west-2.rds.amazonaws.com;user id=team94user;passwor" +
+            "d=592road$;database=propertyManagementDB")]
+        public string propertyManagementDBConnectionString {
+            get {
+                return ((string)(this["propertyManagementDBConnectionString"]));
+            }
+        }
     }
 }
