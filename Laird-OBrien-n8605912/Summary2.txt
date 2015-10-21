@@ -1,0 +1,35 @@
+The 5 Artefacts in this directory, show the work that I Laird O'Brien have contributed 
+to the second release (week 13). This summary will include the names, a brief overview, 
+and the reason why each Artefact was chosen.
+
+Artefact Names:
+~~~~~~~~~~~~~~~
+ 6: Blog Entry
+ 7: Jira Stories
+ 8: Development Branch
+ 9: C# Manager GUI
+10: C# Manager Form
+
+
+Artefacts Overview & Why they were Chosen:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6: This artefact simply shows the blog entry that i contributed to the group blog,
+for weeks 7 and 8 of the project. 
+
+7: Three of us in the group created the Jira stories, simply so that it would be
+much faster for us to get through all of the user stories (20+). The website was
+down during the time that I was putting together these artefacts.
+
+8: Zubair and myself were responsible for the git repository, including managing
+the development branch, and anything else the group needed. For example: uploading
+files when people didnt have access to the github client, or reverting back to a
+previous version of certain files.
+
+9: I was responsible for creating the Manager part of the programs GUI. This GUI
+required the ability to: Search for staff, search for a property, allocate a
+certain property to a specified staff member, change staff working hours, and 
+change a property's rental status.
+
+10: I was also responsible for creating the actual Manager part of the C# program.
+This part needed to do all the things listed above in section 9), but due to time
+constraints and other projects was not fully implemented correctly
