@@ -22,3 +22,15 @@ C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmt
 C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffForm.resources
 C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffMenu.resources
 C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.csproj.GenerateResource.Cache
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\bin\Debug\PptyMgmtSys.exe.config
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.exe
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.pdb
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.csprojResolveAssemblyReference.cache
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.createTenant.resources
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.Form1.resources
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.Properties.Resources.resources
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffForm.resources
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.StaffMenu.resources
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.csproj.GenerateResource.Cache
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.Manager.resources
+C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.ManagerForm.resources
