@@ -92,7 +92,7 @@ namespace PptyMgmtSys
         {
             db_connection();
             MySqlCommand cmd = new MySqlCommand();
-            cmd.CommandText = "DELETE FROM `sql689558`.`tenant` WHERE tenantID= '" + cell + "');";
+            cmd.CommandText = "DELETE FROM tenant WHERE TenantID = '" + cell + "';";
             cmd.Connection = connect;
             MySqlDataReader login = cmd.ExecuteReader();
             if (login.Read())
@@ -139,10 +139,15 @@ namespace PptyMgmtSys
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int i;
-            i = dataGridView1.SelectedCells[0].RowIndex;
-            int cell = int.Parse(dataGridView1.Rows[1].Cells[0].Value.ToString());
-            DeleteTenant(cell);
+            //int i = dataGridView1.SelectedRows[0].Index;
+            //int cell = int.Parse(dataGridView1.Rows[1].Cells[0].Value.ToString());
+            int selectedrowindex = dataGridView1.SelectedCells[0].RowIndex;
+            DataGridViewRow selectedRow = dataGridView1.Rows[selectedrowindex];
+            int i = Convert.ToInt32(selectedRow.Cells[0].Value);
+
+            DeleteTenant(i);
+            MessageBox.Show("Successfully Deleted!");
+            this.tenantTableAdapter3.Fill(this.propertyManagementDBDataSet1.tenant);
             
             
         }
@@ -150,15 +155,17 @@ namespace PptyMgmtSys
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             //DataRow row = dataGridView1.SelectedRows;
-            //label8.Text = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            int i;
-            i = dataGridView1.SelectedCells[0].RowIndex;
+            
+            int i = dataGridView1.SelectedCells[0].RowIndex;
+            int selectedrowindex = dataGridView1.SelectedCells[0].RowIndex;
+            DataGridViewRow selectedRow = dataGridView1.Rows[selectedrowindex];
             name.Text = dataGridView1.Rows[i].Cells[1].Value.ToString();
             phone.Text = dataGridView1.Rows[i].Cells[2].Value.ToString();
             document.Text = dataGridView1.Rows[i].Cells[4].Value.ToString();
             contact.Text = dataGridView1.Rows[i].Cells[5].Value.ToString();
             bankAccount.Text = dataGridView1.Rows[i].Cells[6].Value.ToString();
             bsb.Text = dataGridView1.Rows[i].Cells[7].Value.ToString();
+            label8.Text = Convert.ToString(selectedRow.Cells[0].Value);
         }
 
         private void back_Click(object sender, EventArgs e)
