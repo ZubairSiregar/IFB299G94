@@ -53,6 +53,8 @@
             this.tenantContactDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenantAccountNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenantBSBDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenantBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.propertyManagementDBDataSet1 = new PptyMgmtSys.propertyManagementDBDataSet1();
             this.tenantBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.sql689558DataSet = new PptyMgmtSys.sql689558DataSet();
             this.tenantBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -65,18 +67,16 @@
             this.propertymanagementDataSet2 = new PptyMgmtSys.propertymanagementDataSet2();
             this.tenantBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.tenantTableAdapter2 = new PptyMgmtSys.propertymanagementDataSet2TableAdapters.tenantTableAdapter();
-            this.propertyManagementDBDataSet1 = new PptyMgmtSys.propertyManagementDBDataSet1();
-            this.tenantBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.tenantTableAdapter3 = new PptyMgmtSys.propertyManagementDBDataSet1TableAdapters.tenantTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.propertyManagementDBDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sql689558DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.propertyManagementDBDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -284,6 +284,16 @@
             this.tenantBSBDataGridViewTextBoxColumn.Name = "tenantBSBDataGridViewTextBoxColumn";
             this.tenantBSBDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // tenantBindingSource3
+            // 
+            this.tenantBindingSource3.DataMember = "tenant";
+            this.tenantBindingSource3.DataSource = this.propertyManagementDBDataSet1;
+            // 
+            // propertyManagementDBDataSet1
+            // 
+            this.propertyManagementDBDataSet1.DataSetName = "propertyManagementDBDataSet1";
+            this.propertyManagementDBDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // tenantBindingSource1
             // 
             this.tenantBindingSource1.DataMember = "tenant";
@@ -354,16 +364,6 @@
             // 
             this.tenantTableAdapter2.ClearBeforeFill = true;
             // 
-            // propertyManagementDBDataSet1
-            // 
-            this.propertyManagementDBDataSet1.DataSetName = "propertyManagementDBDataSet1";
-            this.propertyManagementDBDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tenantBindingSource3
-            // 
-            this.tenantBindingSource3.DataMember = "tenant";
-            this.tenantBindingSource3.DataSource = this.propertyManagementDBDataSet1;
-            // 
             // tenantTableAdapter3
             // 
             this.tenantTableAdapter3.ClearBeforeFill = true;
@@ -396,14 +396,14 @@
             this.Text = "createTenant";
             this.Load += new System.EventHandler(this.createTenant_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.propertyManagementDBDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sql689558DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.propertymanagementDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.propertyManagementDBDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tenantBindingSource3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
