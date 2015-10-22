@@ -56,7 +56,7 @@ namespace PptyMgmtSys
             }
 
         }
-
+        //Load data from database to appropriate textboxes whenever dropdownbox value is changed
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -71,7 +71,6 @@ namespace PptyMgmtSys
                     comboBox1.Items.Add(mdr.GetInt32("PropertyID"));
                     textBox1.Text = mdr.GetString("Status");
                     textBox2.Text = mdr.GetString("HouseNumber") + " " + mdr.GetString("StreetName") + " " + mdr.GetString("Postcode") + " " + mdr.GetString("Suburb") + " " + mdr.GetString("State") + " " + mdr.GetString("City") + " " + mdr.GetString("Country");
-                        //" StreetName" + " Postcode" + " Suburb" + " State" + " City" + " Country");
                     textBox3.Text = mdr.GetInt32("Bedrooms").ToString();
                     textBox4.Text = mdr.GetInt32("Bathrooms").ToString();
                     textBox5.Text = mdr.GetFloat("TotalRent").ToString();
@@ -79,8 +78,6 @@ namespace PptyMgmtSys
                     pictureBox1.ImageLocation = mdr.GetString("PhotoOne");
                     pictureBox2.ImageLocation = mdr.GetString("PhotoTwo");
                     pictureBox3.ImageLocation = mdr.GetString("PhotoThree");
-
-
 
                 }
                 mcon.Close();
