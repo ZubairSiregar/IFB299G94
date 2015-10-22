@@ -19,7 +19,7 @@ namespace PptyMgmtSys
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new createTenant().Show();
+            new StaffForm().Show();
             
         }
 
@@ -30,7 +30,7 @@ namespace PptyMgmtSys
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new ManagerForm().Show();
+            //new ManagerForm().Show();
         }
     }
 }

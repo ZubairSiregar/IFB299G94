@@ -89,6 +89,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>propertymanagementDataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="propertymanagementDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>propertymanagementDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="propertymanagementDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>propertymanagementDataSet4.xsd</DependentUpon>
+    </Compile>
     <Compile Include="propertyManagementDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -181,6 +191,28 @@
     </None>
     <None Include="propertymanagementDataSet2.xss">
       <DependentUpon>propertymanagementDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="propertymanagementDataSet3.xsc">
+      <DependentUpon>propertymanagementDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="propertymanagementDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>propertymanagementDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="propertymanagementDataSet3.xss">
+      <DependentUpon>propertymanagementDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="propertymanagementDataSet4.xsc">
+      <DependentUpon>propertymanagementDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="propertymanagementDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>propertymanagementDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="propertymanagementDataSet4.xss">
+      <DependentUpon>propertymanagementDataSet4.xsd</DependentUpon>
     </None>
     <None Include="propertyManagementDBDataSet.xsc">
       <DependentUpon>propertyManagementDBDataSet.xsd</DependentUpon>

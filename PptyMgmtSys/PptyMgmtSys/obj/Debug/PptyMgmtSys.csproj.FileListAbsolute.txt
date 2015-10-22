@@ -34,3 +34,4 @@ C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgm
 C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.csproj.GenerateResource.Cache
 C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.Manager.resources
 C:\Users\Leddo\Desktop\Clone\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.ManagerForm.resources
+C:\Users\Zubair\Desktop\dev\IFB299G94\PptyMgmtSys\PptyMgmtSys\obj\Debug\PptyMgmtSys.property.resources
